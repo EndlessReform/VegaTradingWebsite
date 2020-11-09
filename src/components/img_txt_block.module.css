@@ -35,4 +35,8 @@
         font-size: 1.15rem;
         line-height: 135%;
     }
+
+    .img_wrapper img {
+      max-width: 15rem;
+    }
 }
