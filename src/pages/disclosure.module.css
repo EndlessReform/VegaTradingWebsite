@@ -1,0 +1,18 @@
+.wrapper {
+    height: 85vh;
+    padding: 3rem;
+    background-color: #271F16;
+    color: #dddddd;
+}
+
+.wrapper h1 {
+    margin-top: 7rem;
+    font-size: 4rem;
+    margin-bottom: 1.5rem;
+}
+
+.wrapper p {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    max-width: 80rem;
+}

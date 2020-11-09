@@ -1,0 +1,43 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    background-color: #F71735;
+    color: white;
+}
+
+.wrapper a {
+    text-decoration: none;
+    color: white;
+}
+
+.wrapper a:hover {
+    text-decoration: underline;
+}
+
+.wrapper div:first-of-type {
+    border-right: 1px solid white;
+}
+
+.block {
+    padding: 1.5rem 3rem;
+    display: flex;
+    align-items: center;
+}
+
+.block img {
+    margin-left: 1rem;
+    height: 2rem;
+}
+
+@media screen and (max-device-width: 640px) {
+    .wrapper {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .wrapper div:first-of-type {
+        border-right: none;
+        border-bottom: 1px solid white;
+    }
+}

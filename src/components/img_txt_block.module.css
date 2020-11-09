@@ -1,0 +1,38 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: 33vw auto;
+    min-height: 10rem;
+}
+
+.img_wrapper {
+    display: flex;
+}
+.img_wrapper img {
+    max-width: 25rem;
+    margin: auto;
+    padding: 3rem;
+}
+
+.text_wrapper {
+    margin: 8rem 4rem;
+    max-width: 37.5rem;
+}
+
+.text_wrapper h1 {
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-device-width: 640px) {
+    .wrapper {
+        grid-template-columns: 100vw;
+    }
+
+    .text_wrapper {
+        margin: 2rem 2rem 3rem 2rem;
+    }
+
+    .text_wrapper p {
+        font-size: 1.15rem;
+        line-height: 135%;
+    }
+}

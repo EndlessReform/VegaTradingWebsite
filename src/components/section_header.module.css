@@ -1,0 +1,31 @@
+.wrapper {
+    background-color: #dddddd;
+    color: #271F16;
+    display: flex;
+    justify-content: center;
+}
+
+.text {
+    padding: 7rem 0rem;
+    max-width: 60rem;
+}
+
+.topline {
+    font-weight: 300;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+@media screen and (max-device-width: 640px) {
+    .text {
+        padding: 3rem 2rem;
+    }
+
+    .topline {
+        font-size: 2rem;
+    }
+
+    .bottomline {
+        font-size: 2rem !important;
+    }
+}
